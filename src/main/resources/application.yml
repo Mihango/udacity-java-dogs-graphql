@@ -15,4 +15,4 @@ graphql:
 graphiql:
   enabled: true
   endpoint: /graphql
-  mapping: /graphql
+  mapping: /graphiql

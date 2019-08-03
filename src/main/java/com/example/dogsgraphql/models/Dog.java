@@ -11,7 +11,6 @@ import javax.persistence.Id;
 
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 @Entity
 public class Dog {
 
@@ -22,4 +21,10 @@ public class Dog {
     private String name;
     private String breed;
     private String origin;
+
+    public Dog(String name, String breed, String origin) {
+        this.name = name;
+        this.breed = breed;
+        this.origin = origin;
+    }
 }

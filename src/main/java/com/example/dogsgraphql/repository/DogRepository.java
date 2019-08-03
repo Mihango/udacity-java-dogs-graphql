@@ -1,6 +1,6 @@
 package com.example.dogsgraphql.repository;
 
-import com.example.dogs.models.Dog;
+import com.example.dogsgraphql.models.Dog;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
